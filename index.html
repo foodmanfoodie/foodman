@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Mobile Margins -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- css -->
@@ -43,6 +44,19 @@
     </div>
   </nav>
 
+
+
+<a data-aos="fade-up"
+     data-aos-duration="3000"  href="#menu-box" class="fixed-bottom material-icons floating-button one-edge-shadow" style="margin-bottom: 300px;margin-left: 328px;
+text-decoration: none;text-align: center;align-items: center;justify-content: center;width: 40px;height:40px;background-color: #4076EA;color: white;font-size: 20px;border-radius: 50%;"><p style="margin-top: 10px;">menu</p></a>
+
+<a  data-aos="fade-up"
+     data-aos-duration="3000" href="tel:919850113356" class="fixed-bottom material-icons floating-button one-edge-shadow" style="margin-bottom: 300px;margin-left: 10px;
+text-decoration: none;text-align: center;align-items: center;justify-content: center;width: 40px;height:40px;background-color: #2db300;color: white;font-size: 20px;border-radius: 50%;"><p style="margin-top: 10px;">call</p></a>
+
+
+
+
 <div class=" page-1 ">
 	<center>
 		       <!-- Automatic Slideshow -->
@@ -56,8 +70,8 @@
       <div>
         <img class="logo" src="img/s1.png">
       </div>
-      <a href="#" class="material-icons icons" >chat</a>
-      <a href="#" class="material-icons icons" >place</a>
+      <a href="https://wa.me/919850113356" class="material-icons icons" >chat</a>
+      <a href="https://www.google.com/maps/place/FOODMAN/@18.4757154,73.8937685,17z/data=!4m12!1m6!3m5!1s0x3bc2eb66dd8b6eab:0xd34aa4302bf5e7b9!2sFOODMAN!8m2!3d18.4757318!4d73.893771!3m4!1s0x3bc2eb66dd8b6eab:0xd34aa4302bf5e7b9!8m2!3d18.4757318!4d73.893771" class="material-icons icons" >place</a>
 	</center>
 </div>
 <!-- Automatic SlideShow Script -->
@@ -80,7 +94,7 @@ function carousel() {
 
 
 <!-- page 2 menu -->
-
+<a id="menu-box"></a>
 <div  class="menu">
   <div class="menu-box">
     <center>
@@ -90,60 +104,60 @@ function carousel() {
      </div>
 
      <div class="container">
-       <div class="row">
+       <div data-aos="fade-up" class="row">
          <div class="col">
-          <a class = "click" href="#">
+          <a class = "click" href="#Chicken">
            <img class="menu-img" src="img/menu1.jpeg">
            <p class="menu-text">Chicken Products</p>
            </a>
          </div>
         <div class="col">
-          <a class = "click" href="#">
+          <a class = "click" href="#Pork">
            <img class="menu-img" src="img/menu2.jpeg">
            <p class="menu-text">Pork Products</p>
            </a>
         </div>
        </div>
 
-       <div class="row">
+       <div data-aos="fade-up" class="row">
          <div class="col">
-          <a class = "click" href="#">
+          <a class = "click" href="#Sea">
            <img class="menu-img" src="img/menu3.jpg">
            <p class="menu-text">Sea Food</p>
             </a>
          </div>
         <div class="col">
-          <a class = "click" href="#">
+          <a class = "click" href="#Mutton">
            <img class="menu-img" src="img/menu4.png">
            <p class="menu-text">Mutton Products</p>
            </a>
         </div>
        </div>
 
-       <div class="row">
+       <div data-aos="fade-up" class="row">
          <div class="col">
-          <a class = "click" href="#">
+          <a class = "click" href="#Dips">
            <img class="menu-img" src="img/menu5.jpg">
            <p class="menu-text">Dips and Spreads</p>
             </a>
          </div>
         <div class="col">
-          <a class = "click" href="#">
+          <a class = "click" href="#Masala">
            <img class="menu-img" src="img/menu6.jpg">
            <p class="menu-text">Masala and Vinegar</p>
            </a>
         </div>
        </div>
 
-       <div class="row">
+       <div data-aos="fade-up" class="row">
          <div  class="col">
-          <a class = "click" href="#">
+          <a class = "click" href="#Koliwada">
            <img class="menu-img" src="img/menu7.jpg">
            <p class="menu-text">Koliwada Style</p>
             </a>
          </div>
         <div class="col">
-          <a class = "click" href="#">
+          <a class = "click" href="#Imported">
            <img class="menu-img" src="img/menu8.jpg">
            <p class="menu-text">Imported Sauces</p>
            </a>
@@ -157,17 +171,22 @@ function carousel() {
 
 <div class="sub-menu">
   <center>
-    <h6 class="sub-menu-heading" >  Chicken Products  </h6>
+    <a id="Chicken"></a>
+    <h6 data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="sub-menu-heading" >  Chicken Products  </h6>
   </center>
     <div class="container sub-menu-box justify-content-center">
 
 
-        <div class="row list ">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list ">
            <div class="col ">
             <p class="item">•  Whole Chicken</p> 
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 220 / Kg </p>
            </div>
         </div>
 
@@ -175,132 +194,158 @@ function carousel() {
 
 
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Cut Piece</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 220 / Kg </p>
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Boneless</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 200 (500g) </p>
            </div>
         </div>
 
 
-<div class="row list">
+<div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Mince</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 110 (500g) </p>
            </div>
         </div>
 
 
-<div class="row list">
+<div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Ham</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
         
 
       
-<div class="row list">
+<div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Sausages</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
 
-<div class="row list">
+<div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Salami</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Cheese and pepper Sausages</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 150 (250g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">• Lollipop</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 130 (250g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Drum Stick </p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 300 / Kg </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Peproni</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 180 (250g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Smoked Sausages</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 180 (250g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Hot Dog</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 150 (250g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Cheese Balls</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-ch">
+             <p class="price">Rs. 150 (250g) </p>
            </div>
         </div>
 
@@ -312,17 +357,22 @@ function carousel() {
  
 <div class="sub-menu">
   <center>
-    <h6 class="sub-menu-heading" >  Pork Products  </h6>
+    <a id="Pork"></a>
+    <h6 data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="sub-menu-heading" >  Pork Products  </h6>
   </center>
   <div class="container sub-menu-box justify-content-center">
 
 
-        <div class="row list ">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list ">
            <div class="col ">
             <p class="item">•  Boneless Pork</p> 
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-pork">
+             <p class="price">Rs. 300 / Kg</p>
            </div>
         </div>
 
@@ -330,73 +380,87 @@ function carousel() {
 
 
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Skinless Pork</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-pork">
+             <p class="price">Rs. 340 / Kg </p>
            </div>
         </div>
 
         
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Ham</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-pork">
+             <p class="price">Rs. 150 (250g)</p>
            </div>
         </div>
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Sausages</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-pork">
+             <p class="price">Rs. 150 (250g) </p>
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
-             <p class="item">•  Goan Sausages</p>
+             <p class="item">•  Goan Sausages (400g Packet)</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-pork">
+             <p class="price">Rs. 280 </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">• Salami</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-pork">
+             <p class="price">Rs. 150 (250g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Liver and kidney</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-pork">
+             <p class="price">Rs. 220 / Kg </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Hod Dog</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-pork">
+             <p class="price">Rs.280 (500g) </p>
            </div>
         </div>
 </div>
@@ -404,12 +468,17 @@ function carousel() {
 
 <div class="sub-menu">
   <center>
-    <h6 class="sub-menu-heading" >  Sea Food  </h6>
+    <a id="Sea"></a>
+    <h6 data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="sub-menu-heading" >  Sea Food  </h6>
   </center>
     <div class="container sub-menu-box justify-content-center">
 
 
-        <div class="row list ">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list ">
            <div class="col ">
             <p class="item">•  Basa Fish</p> 
            </div>
@@ -422,7 +491,9 @@ function carousel() {
 
 
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Prawns</p>
            </div>
@@ -434,7 +505,9 @@ function carousel() {
         
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">• Fish Finger</p>
            </div>
@@ -447,17 +520,22 @@ function carousel() {
 
 <div class="sub-menu">
   <center>
-    <h6 class="sub-menu-heading" >  Mutton Products  </h6>
+    <a id="Mutton"></a>
+    <h6 data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="sub-menu-heading" >  Mutton Products  </h6>
   </center>
   <div class="container sub-menu-box justify-content-center">
 
 
-        <div class="row list ">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list ">
            <div class="col ">
             <p class="item">•  Fresh Mutton</p> 
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-mutton">
+             <p class="price">Rs. 680 / Kg </p>
            </div>
         </div>
 
@@ -465,43 +543,51 @@ function carousel() {
 
 
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Kheema</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-mutton">
+             <p class="price">Rs. 700 / Kg </p>
            </div>
         </div>
 
         
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">• Liver</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-mutton">
+             <p class="price">Rs. 680 / Kg </p>
            </div>
         </div>
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Seekh Kabab</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-mutton">
+             <p class="price">Rs. 370 (500g) </p>
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
-             <p class="item">•  Paya</p>
+             <p class="item">•  Paya (Single Paya)</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-mutton">
+             <p class="price">Rs. 60 </p>
            </div>
         </div>
       </div>
@@ -509,17 +595,22 @@ function carousel() {
 
 <div class="sub-menu">
   <center>
-    <h6 class="sub-menu-heading" >  Dips and Spreads  </h6>
+    <a id="Dips"></a>
+    <h6 data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="sub-menu-heading" >  Dips and Spreads  </h6>
   </center>
     <div class="container sub-menu-box justify-content-center">
 
 
-        <div class="row list ">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list ">
            <div class="col ">
             <p class="item">•  Mayonnaise</p> 
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
@@ -527,121 +618,145 @@ function carousel() {
 
 
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Tandoori Mayonnaise</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
         
 
         
-        <div class="row list">
+        <div  data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="row list">
            <div class="col">
              <p class="item">•  Mint Mayonnaise</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Garlic Mayonnaise</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Pizza Pasta Sause</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col" >
              <p class="item">• Cheese Jalapeno Dip</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Schezwan Sause</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Thousand Island</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Ketchup</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Chipotle Dip</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Cheese Blend</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">• Harrisa Dressing</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Honey Mustard</p>
            </div>
-        <div class="col price-section">
-             <p class="price">Rs. --- </p>
+        <div class="col price-section-dips">
+             <p class="price">Rs. 150 (500g) </p>
            </div>
         </div>
 
@@ -652,12 +767,17 @@ function carousel() {
 
 <div class="sub-menu">
   <center>
-    <h6 class="sub-menu-heading" >  Masala and Vinegar  </h6>
+    <a id="Masala"></a>
+    <h6 data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="sub-menu-heading" >  Masala and Vinegar  </h6>
   </center>
   <div class="container sub-menu-box justify-content-center">
 
 
-        <div class="row list ">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list ">
            <div class="col ">
             <p class="item">•  Rechardo Masala</p> 
            </div>
@@ -670,7 +790,9 @@ function carousel() {
 
 
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Baffat Masala</p>
            </div>
@@ -682,7 +804,9 @@ function carousel() {
         
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Vindaloo Masala</p>
            </div>
@@ -692,7 +816,9 @@ function carousel() {
         </div>
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Dhansak Masala</p>
            </div>
@@ -701,7 +827,9 @@ function carousel() {
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Prawn Balchao</p>
            </div>
@@ -711,7 +839,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col" >
              <p class="item">• Birista Fried Onion</p>
            </div>
@@ -721,7 +851,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Cafrel Masala</p>
            </div>
@@ -731,7 +863,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Xacuti Masala</p>
            </div>
@@ -740,7 +874,9 @@ function carousel() {
            </div>
         </div>
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Kfc Style Masala</p>
            </div>
@@ -750,7 +886,9 @@ function carousel() {
         </div>
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Goan Vinegar</p>
            </div>
@@ -759,7 +897,9 @@ function carousel() {
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Apple Vinegar</p>
            </div>
@@ -769,7 +909,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">• Prawn Wafer</p>
            </div>
@@ -779,7 +921,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Crab Wafer</p>
            </div>
@@ -795,12 +939,17 @@ function carousel() {
 
 <div class="sub-menu">
   <center>
-    <h6 class="sub-menu-heading" >  Koliwada Style  </h6>
+    <a id="Koliwada"></a>
+    <h6 data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="sub-menu-heading" >  Koliwada Style  </h6>
   </center>
     <div class="container sub-menu-box justify-content-center">
 
 
-        <div class="row list ">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list ">
            <div class="col ">
             <p class="item">•  Chicken Kabab</p> 
            </div>
@@ -813,7 +962,9 @@ function carousel() {
 
 
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Chicken Malai Kabab</p>
            </div>
@@ -825,7 +976,9 @@ function carousel() {
         
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Chicken Onion kabab</p>
            </div>
@@ -835,7 +988,9 @@ function carousel() {
         </div>
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Chicken Khus Kabab</p>
            </div>
@@ -844,7 +999,9 @@ function carousel() {
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Chicken Angara Kabab</p>
            </div>
@@ -854,7 +1011,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col" >
              <p class="item">• Chicken Achari Kabab</p>
            </div>
@@ -864,7 +1023,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Chicken Lollipop</p>
            </div>
@@ -874,7 +1035,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Chicken Drum Stick</p>
            </div>
@@ -883,7 +1046,9 @@ function carousel() {
            </div>
         </div>
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Chicken Tikka</p>
            </div>
@@ -893,7 +1058,9 @@ function carousel() {
         </div>
 
         
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Chicken Cheese Ball</p>
            </div>
@@ -902,7 +1069,9 @@ function carousel() {
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Chicken Nuggets</p>
            </div>
@@ -912,7 +1081,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">• Chicken Gizzard</p>
            </div>
@@ -922,7 +1093,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Chicken Sausage</p>
            </div>
@@ -931,7 +1104,9 @@ function carousel() {
            </div>
         </div>
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Chicken Smoked Sausage</p>
            </div>
@@ -940,7 +1115,9 @@ function carousel() {
            </div>
         </div>
 
-        <div class="row list">
+        <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•   Chi. Cheese Pepper Sausage</p>
            </div>
@@ -950,7 +1127,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">• Prawns Fry</p>
            </div>
@@ -960,7 +1139,9 @@ function carousel() {
         </div>
 
 
-         <div class="row list">
+         <div data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="row list">
            <div class="col">
              <p class="item">•  Basa Fish</p>
            </div>
@@ -974,9 +1155,23 @@ function carousel() {
 
 <div class="sub-menu">
   <center>
-    <h6 class="sub-menu-heading" >  Imported Sauces  </h6>
+    <a id="Imported"></a>
+    <h6 data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="500" class="sub-menu-heading" >  Imported Sauces  </h6>
     <h4 style="color: red;">Coming Soon...</h4>
   </center>
+   <div class="container sub-menu-box justify-content-center">
+
+
+
+
+
+
+
+       
+
+</div>
 
 </div>
 
@@ -985,7 +1180,10 @@ function carousel() {
 
 	<!-- JavaScript Bundle with Popper -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+  AOS.init();
+</script>
 
-     
 </body>
 </html>
